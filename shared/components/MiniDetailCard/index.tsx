@@ -29,8 +29,6 @@ const MiniDetailCard: React.FC<IProps> = ({
   const { push } = useRouter();
   return (
     <Box
-      lat={Number(lat)}
-      lng={Number(lng)}
       width="200px"
       height="200px"
       position="absolute"
