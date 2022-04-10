@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@redux/*": ["redux/*"],
+      "@theme/*": ["theme/*"],
+      "@components/*": ["shared/components/*"],
+      "@utils/*": ["shared/utils/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
