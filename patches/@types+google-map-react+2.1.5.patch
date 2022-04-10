@@ -1,0 +1,12 @@
+diff --git a/node_modules/@types/google-map-react/index.d.ts b/node_modules/@types/google-map-react/index.d.ts
+index ef8b2ca..d4c5e88 100644
+--- a/node_modules/@types/google-map-react/index.d.ts
++++ b/node_modules/@types/google-map-react/index.d.ts
+@@ -147,6 +147,7 @@ declare namespace googleMapReact {
+     }
+ 
+     interface Props {
++        children?:any
+         bootstrapURLKeys?: BootstrapURLKeys | undefined;
+         defaultCenter?: Coords | undefined;
+         center?: Coords | undefined;
